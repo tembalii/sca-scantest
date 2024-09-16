@@ -20,5 +20,5 @@ jobs:
     container:
       image: returntocorp/semgrep
     steps:
-    - uses: actions/checkout@v3
-    - run: SEMGREP_BASELINE_REF=REF semgrep ci
+    - uses: actions/checkout@v4
+    - run: semgrep ci
